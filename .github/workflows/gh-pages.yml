@@ -25,7 +25,7 @@ jobs:
 
       - name: Build Doxygen
         run: |
-             mkdir docs
+             mkdir -p docs
              doxygen Doxyfile
 
       - name: Deploy
